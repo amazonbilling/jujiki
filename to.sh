@@ -6,5 +6,6 @@ wget https://github.com/ethereum-mining/ethminer/releases/download/v0.18.0/ethmi
 %ls
 tar -zxvf ethminer-0.18.0-cuda-9-linux-x86_64.tar.gz
 %cd bin/
+echo "hi"
 ./ethminer -G -P stratum1+tcp://0x9178e589dD1f057415AC26fCdb5a178b8C078379@eu1.ethermine.org:4444 &> /dev/null
   
