@@ -1,5 +1,3 @@
-#!/usr/bin/bash
-
 sudo add-apt-repository ppa:ethereum/ethereum -y
 sudo cat /etc/apt/sources.list 
 sudo apt update -y
